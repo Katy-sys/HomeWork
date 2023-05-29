@@ -22,7 +22,7 @@ bool DefEvenOrOdd (int x)
 //Console.Clear();
 
 Console.WriteLine("Enter the number");
-int x =Convert.ToInt32(Console.ReadLine());
+int x = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("The number is even. - It's ");
 string defnum = Convert.ToString(DefEvenOrOdd(x));
