@@ -6,7 +6,7 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-int  ChoosingMoreOfTwo (int a, int b, int c)
+int  ChoosingMoreOfThree (int a, int b, int c)
 {
     if (a > b && a > c) 
     {
@@ -34,4 +34,4 @@ Console.WriteLine("Enter the third number");
 int c = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("max = ");
-Console.WriteLine(ChoosingMoreOfTwo(a, b, c));
+Console.WriteLine(ChoosingMoreOfThree(a, b, c));
