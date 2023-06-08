@@ -18,6 +18,8 @@ int BottomNumber(int charactersNumber)
         bottomValue = 0;
     else
         bottomValue = Convert.ToInt32(Math.Pow(10, charactersNumber-1));
+
+    System.Console.WriteLine($"Нижняя граница значений= {bottomValue}");
     return bottomValue;   
 }
 
@@ -29,6 +31,8 @@ int TopNumber(int charactersNumber)
         topValue = 9;
     else
         topValue = Convert.ToInt32(Math.Pow(10, charactersNumber) - 1);
+        
+    System.Console.WriteLine($"Верхняя граница значений = {topValue}");
     return topValue;   
 }
 
